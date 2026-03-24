@@ -1,88 +1,150 @@
-# Enterprise Security Program (CISSP-Aligned)
+# Enterprise Security Governance & Compliance
 
 ## Overview
-This repository represents a comprehensive enterprise security program aligned with the 8 CISSP domains. It demonstrates both theoretical knowledge and real-world implementation across governance, risk, architecture, operations, and resilience.
 
-This is not a lab. This is a **complete enterprise security blueprint**.
+This repository represents a comprehensive enterprise security environment covering governance, risk management, architecture, operations, and resilience.
 
----
-
-## Objectives
-
-- Align security practices with CISSP domains
-- Demonstrate real-world enterprise security capabilities
-- Showcase hands-on implementation using:
-  - Active Directory
-  - pfSense Firewall
-  - Kali Linux
-  - Nessus
-  - Splunk SIEM
-  - Web, DB, and Storage Systems
-- Provide structured documentation for governance, risk, and operations
+The structure reflects how security is designed, implemented, and managed across an organization, with a focus on identity, control effectiveness, and continuous improvement.
 
 ---
 
-## Domain Mapping
+## Security Approach
 
-| CISSP Domain | Repository Section |
-|-------------|------------------|
-| Security & Risk Management | 00, 01 |
-| Asset Security | 01 |
-| Security Architecture | 02 |
-| Identity & Access Management | 03 |
-| Network Security | 04 |
-| Security Assessment & Testing | 06 |
-| Security Operations | 07 |
-| Software Development Security | 05 |
+The environment is built on the following principles:
+
+* Governance-driven decision making
+* Risk-based prioritization
+* Identity as the primary control plane
+* Segmentation and controlled access
+* Continuous monitoring and validation
+* Measurable security outcomes
 
 ---
 
-## Key Highlights
+## Repository Structure
 
-- Governance-first, risk-based approach
-- Identity lifecycle and access control focus
-- Zero Trust architecture principles
-- Detection and response engineering (SIEM)
-- Vulnerability management lifecycle
-- Business continuity and resilience planning
+00_strategy-governance/
+01_risk-management/
+02_security-architecture/
+03_identity-security/
+04_network-security/
+05_endpoint-application-security/
+06_vulnerability-management/
+07_security-operations/
+08_data-protection/
+09_resilience/
+10_metrics-assurance/
+11_reporting/
+
+---
+
+## Core Capabilities
+
+### Governance and Risk
+
+* Security strategy and policy framework
+* Risk identification and tracking
+* Asset classification and ownership
+
+### Identity and Access
+
+* Identity lifecycle management
+* Privileged access control
+* Access certification and governance
+
+### Architecture and Network
+
+* Segmented network design
+* Zero trust principles
+* Controlled communication paths
+
+### Security Operations
+
+* Centralized monitoring and logging
+* Detection engineering and alerting
+* Incident response and threat hunting
+
+### Vulnerability Management
+
+* Continuous vulnerability scanning
+* Risk-based remediation
+* Exception and SLA management
+
+### Data Protection
+
+* Data classification and handling
+* Encryption standards
+* Data loss prevention strategy
+
+### Resilience
+
+* Business continuity planning
+* Disaster recovery procedures
+* Backup and restoration strategy
+
+### Metrics and Assurance
+
+* Security metrics and reporting
+* KPI and KRI tracking
+* Control validation and improvement
 
 ---
 
 ## Environment Overview
 
-| Component | Technology |
-|----------|-----------|
-| Identity | Active Directory / Azure |
-| Network | pfSense Firewall |
-| Security Testing | Kali Linux |
-| Vulnerability Scanning | Nessus |
-| SIEM | Splunk |
-| Infrastructure | VMware + Cloud |
+The environment includes:
+
+* Identity systems (Active Directory)
+* Network security controls (firewall and segmentation)
+* Monitoring and logging platforms (SIEM)
+* Vulnerability management systems
+* Application, database, and storage systems
+
+Cloud platforms are integrated as part of the overall architecture and follow the same governance and control model.
 
 ---
 
-## Screenshots (Evidence)
+## Architecture Diagrams
 
-Each domain includes real-world screenshots located in:
-
+* docs/diagrams/network-architecture.md
+* docs/diagrams/zero-trust.md
 
 ---
 
-## Structure
+## Evidence
 
-Refer to folder structure for detailed breakdown across domains.
+Supporting evidence is available in:
+
+/screenshots/
+
+This includes:
+
+* Identity systems
+* Network controls
+* Monitoring platforms
+* Vulnerability scanning
+* Data protection controls
+
+---
+
+## Key Outcomes
+
+* Centralized visibility across systems
+* Controlled and monitored access
+* Reduced attack surface through segmentation
+* Timely detection and response to threats
+* Measurable and continuously improving security posture
 
 ---
 
 ## Author
 
-Hari Sharma  
-Security Engineer | CISSP Candidate | Cloud & Enterprise Security
+Hari Sharma
+Security Engineer | Cloud | Enterprise Security
 
 ---
 
 ## Disclaimer
 
-This repository is for educational and professional demonstration purposes only.
-
+This repository is intended to demonstrate security design, implementation, and operational practices.
 
