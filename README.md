@@ -20,21 +20,20 @@ The environment is built on the following principles:
 * Measurable security outcomes
 
 ---
-
 ## Repository Structure
 
-00_strategy-governance/
-01_risk-management/
-02_security-architecture/
-03_identity-security/
-04_network-security/
-05_endpoint-application-security/
-06_vulnerability-management/
-07_security-operations/
-08_data-protection/
-09_resilience/
-10_metrics-assurance/
-11_reporting/
+- 00_strategy-governance/
+- 01_risk-management/
+- 02_security-architecture/
+- 03_identity-security/
+- 04_network-security/
+- 05_endpoint-application-security/
+- 06_vulnerability-management/
+- 07_security-operations/
+- 08_data-protection/
+- 09_resilience/
+- 10_metrics-assurance/
+- 11_reporting/
 
 ---
 
@@ -110,20 +109,19 @@ Cloud platforms are integrated as part of the overall architecture and follow th
 * docs/diagrams/zero-trust.md
 
 ---
+## Implementation Artifacts
 
-## Evidence
-
-Supporting evidence is available in:
+Supporting artifacts are available in:
 
 /screenshots/
 
 This includes:
 
-* Identity systems
-* Network controls
-* Monitoring platforms
-* Vulnerability scanning
-* Data protection controls
+- Identity systems  
+- Network controls  
+- Monitoring platforms  
+- Vulnerability scanning  
+- Data protection controls  
 
 ---
 
@@ -136,11 +134,10 @@ This includes:
 * Measurable and continuously improving security posture
 
 ---
-
 ## Author
 
-Hari Sharma
-Security Engineer | Cloud | Enterprise Security
+Hari Sharma  
+Security Engineering | Cloud | Enterprise Security
 
 ---
 
