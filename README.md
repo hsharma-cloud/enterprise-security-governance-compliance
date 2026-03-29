@@ -109,19 +109,64 @@ Cloud platforms are integrated as part of the overall architecture and follow th
 * docs/diagrams/zero-trust.md
 
 ---
-## Implementation Artifacts
+## 📁 Implementation Artifacts
 
-Supporting artifacts are available in:
+Supporting artifacts from the security implementation are organized below. These demonstrate hands-on configuration, monitoring, and validation across multiple security domains.
 
-/screenshots/
+---
 
-This includes:
+### 🆔 Identity & Access Management
 
-- Identity systems  
-- Network controls  
-- Monitoring platforms  
-- Vulnerability scanning  
-- Data protection controls  
+* Identity system configurations and controls
+* Authentication and authorization mechanisms
+
+---
+
+### 🌐 Network Security Controls
+
+* Network segmentation and traffic control
+* Firewall and access enforcement configurations
+
+---
+
+### 🔍 Security Monitoring Platforms (SIEM)
+
+#### Splunk – Log Analysis & Investigation
+
+![Splunk Dashboard](screenshots/security-operations/splunk/splunk-dashboard.png)
+![Splunk Search](screenshots/security-operations/splunk/splunk-log-search.png)
+
+#### Wazuh – Endpoint Detection & Alerts
+
+![Wazuh Alerts](screenshots/security-operations/wazuh/wazuh-alerts.png)
+
+#### Elastic Stack – Log Correlation & Visualization
+
+![Elastic Dashboard](screenshots/security-operations/elastic/elastic-dashboard.png)
+![Elastic Alerts](screenshots/security-operations/elastic/elastic-alerts-overview.png)
+
+---
+
+### 🛡️ Vulnerability Management
+
+#### Nessus – Vulnerability Scanning
+
+![Nessus Summary](screenshots/vulnerability-management/nessus/nessus-vulnerability-summary.png)
+![Nessus Details](screenshots/vulnerability-management/nessus/nessus-vulnerability-details.png)
+
+#### Qualys – Enterprise Vulnerability Platform
+
+![Qualys Dashboard](screenshots/vulnerability-management/qualys/qualys-dashboard.png)
+
+---
+
+### 🔐 Data Protection Controls
+
+* Data security configurations
+* Protection mechanisms and policy enforcement
+
+---
+
 
 ---
 
