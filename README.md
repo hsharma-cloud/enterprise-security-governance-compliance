@@ -114,8 +114,55 @@ Cloud platforms are integrated as part of the overall architecture and follow th
 Supporting artifacts from the security implementation are organized below. These demonstrate hands-on configuration, monitoring, and validation across multiple security domains.
 
 ---
+## 🔐 Identity & Access Management
 
-### 🆔 Identity & Access Management
+### 📌 Active Directory Enterprise Implementation
+
+Designed and implemented an enterprise-grade Active Directory environment to simulate centralized identity and access management aligned with security governance and compliance principles.
+
+### 🏗️ OU Architecture
+
+* Admin (Privileged-Accounts, Service-Accounts, Groups)
+* Workstations (IT, HR, Finance)
+* Servers (Domain-Controllers, Web, Database, Storage)
+* Security (Defensive, Offensive)
+
+---
+
+### 👥 Role-Based Access Control (RBAC)
+
+* IT_Admins
+* HR_Users
+* Finance_Users
+* Server_Admins
+* DB_Admins
+* SOC_Analysts
+* Red_Team
+
+Users are assigned to groups based on job roles, enforcing least privilege.
+
+---
+
+### 👤 Identity Lifecycle
+
+* admin.user → Privileged-Accounts
+* it.user → IT
+* hr.user → HR
+* finance.user → Finance
+
+---
+
+### ⚙️ Group Policy (GPO)
+
+* Password length: 8
+* Complexity: Enabled
+* Max age: 30 days
+* Min age: 2 days
+
+---
+
+![Active Directory OU Structure and RBAC Implementation](./images/ad-ou-rbac-structure.png)
+
 
 * Identity system configurations and controls
 * Authentication and authorization mechanisms
