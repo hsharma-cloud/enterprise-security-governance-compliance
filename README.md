@@ -160,8 +160,7 @@ Users are assigned to groups based on job roles, enforcing least privilege.
 * Min age: 2 days
 
 ---
-
-![Active Directory OU Structure and RBAC Implementation](./images/ad-ou-rbac-structure.png)
+![AD OU Structure](./screenshots/ad-ou-rbac-structure.png)
 
 
 * Identity system configurations and controls
