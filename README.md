@@ -6,6 +6,14 @@ This repository represents a comprehensive enterprise security environment cover
 
 The structure reflects how security is designed, implemented, and managed across an organization, with a focus on identity, control effectiveness, and continuous improvement.
 
+
+## 🚀 Highlights
+
+- Enterprise security governance framework
+- Identity-first architecture (Active Directory + RBAC)
+- SIEM-based detection and response (Splunk, Wazuh, Elastic)
+- Vulnerability management (Nessus, Qualys)
+- Cloud security guardrails and DevSecOps integration
 ---
 
 ## Security Approach
@@ -212,7 +220,45 @@ Users are assigned to groups based on job roles, enforcing least privilege.
 * Protection mechanisms and policy enforcement
 
 ---
+---
 
+## ☁️ Cloud Security & DevSecOps Integration
+
+Cloud environments are integrated into the overall enterprise architecture and governed using the same security principles, with additional focus on automation and scalability.
+
+### 🔐 API Security & Application Guardrails
+
+API security is implemented as part of the application security domain, with controls designed to enforce secure-by-default deployments.
+
+Key controls include:
+
+- Authentication and authorization using OAuth2/JWT
+- Input validation to prevent injection attacks
+- Rate limiting and abuse prevention
+- Secure API gateway configurations
+- Logging and monitoring of API activity
+
+### ⚙️ Security Guardrails (Policy Enforcement)
+
+Security controls are operationalized through automated guardrails to ensure consistency and prevent misconfigurations:
+
+- Infrastructure-as-Code (Terraform) for secure resource deployment
+- Standardized API gateway configurations with enforced security controls
+- CI/CD security checks to prevent insecure deployments
+- Policy-as-code to enforce compliance requirements
+
+### 🔍 Continuous Monitoring (CSPM Integration)
+
+Cloud security posture is continuously validated using modern platforms such as Wiz:
+
+- Detection of misconfigurations and exposed resources
+- Identification of vulnerable workloads and attack paths
+- Correlation of IAM exposure, network access, and data sensitivity
+- Risk-based prioritization of findings
+
+This enables the organization to move from reactive security to proactive risk management.
+
+---
 
 ---
 
