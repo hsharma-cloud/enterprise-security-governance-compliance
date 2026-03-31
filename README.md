@@ -220,7 +220,7 @@ Users are assigned to groups based on job roles, enforcing least privilege.
 * Protection mechanisms and policy enforcement
 
 ---
----
+
 
 ## ☁️ Cloud Security & DevSecOps Integration
 
@@ -257,8 +257,6 @@ Cloud security posture is continuously validated using modern platforms such as 
 - Risk-based prioritization of findings
 
 This enables the organization to move from reactive security to proactive risk management.
-
----
 
 ---
 
