@@ -176,6 +176,53 @@ Users are assigned to groups based on job roles, enforcing least privilege.
 
 ---
 
+## 🔐 Hybrid Identity Architecture (AD + Okta + Cloud) <a name="hybrid-identity"></a>
+
+This project demonstrates a hybrid identity model where on-premises Active Directory is integrated with a federated identity provider (Okta) to enable secure, centralized access to cloud platforms and applications.
+
+### 🏗️ Architecture
+
+    Active Directory (AD)
+    (Users, Groups, RBAC, GPO)
+            │
+            │  (Sync via AD Agent)
+            ▼
+          Okta (IdP)
+      SSO | MFA | Federation
+            │
+            ├──────────────► AWS (IAM Roles via SSO)
+            └──────────────► SaaS / Applications
+
+### 🔗 Identity Flow
+
+    User → Okta Login → AD Validation → MFA → SAML Assertion → Cloud/App Access
+
+### 🔐 Key Concepts
+
+- **Identity Source**: Active Directory (centralized identity store)  
+- **Federation**: Okta acts as Identity Provider (SAML/OIDC)  
+- **SSO**: Single authentication across systems  
+- **MFA**: Enforced at identity layer  
+- **RBAC**: Access based on AD group membership  
+- **No Local Accounts**: Cloud access via federated roles  
+
+### 👥 RBAC Mapping (Example)
+
+| AD Group       | Access Target        |
+|----------------|---------------------|
+| IT_Admins      | AWS Admin Role      |
+| HR_Users       | HR Application      |
+| Finance_Users  | Finance System      |
+| SOC_Analysts   | Security Monitoring |
+
+### 🎯 Outcome
+
+- Centralized identity (AD)  
+- Secure access control (Okta)  
+- Federated cloud access (AWS / Apps)  
+- Reduced attack surface (no credential sprawl)  
+---
+
 ### 🌐 Network Security Controls
 
 * Network segmentation and traffic control
